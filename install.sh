@@ -25,4 +25,4 @@ fi
 #git clone https://github.com/angelisimo/syschallenge.git
 
 #start compose
-docker-compose -f /pythonapp/docker-compose.yml
+docker-compose -f pythonapp/docker-compose.yml up
