@@ -13,7 +13,7 @@ else
     sudo /etc/init.d/docker start
 fi
 #docker compose
-if [ -x "$(command -v docker)" ]; then
+if [ -x "$(command -v docker-compose)" ]; then
     echo "Update docker compose"
     # command
 else
@@ -25,4 +25,4 @@ fi
 #git clone https://github.com/angelisimo/syschallenge.git
 
 #start compose
-docker-compose -f pythonapp/docker-compose.yml up
+docker-compose -f pythonapp/docker-compose.yml up -d
