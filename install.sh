@@ -27,5 +27,5 @@ fi
 #start compose
 docker-compose -f pythonapp/docker-compose.yml up -d
 
-sleep 5
+sleep 3
 curl localhost/hello
