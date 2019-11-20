@@ -6,14 +6,14 @@ Flask was used for simplicity given the requirements of the challenge.
 
 install.sh, will install try to install docker and docker-compose, then it will run the compose file.
 
-* Requirements:
+- Requirements:
 
-- Debian
-- git
-- listening in port 80
+  - Debian
+  - git
+  - listening in port 80
 
 
-* Instructions
+- Instructions
 ```bash
 git clone https://github.com/angelisimo/syschallenge.git
 cd syschallenge
