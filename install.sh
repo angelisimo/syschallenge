@@ -25,7 +25,7 @@ fi
 #git clone https://github.com/angelisimo/syschallenge.git
 
 #start compose
-docker-compose -f pythonapp/docker-compose.yml up -d
+sudo docker-compose -f pythonapp/docker-compose.yml up -d
 
 sleep 3
 curl localhost/hello
