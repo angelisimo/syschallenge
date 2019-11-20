@@ -28,4 +28,7 @@ fi
 sudo docker-compose -f pythonapp/docker-compose.yml up -d
 
 sleep 3
+echo "htttp"
 curl localhost/hello
+echo "https"
+curl -k https://localhost/hello
