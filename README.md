@@ -10,7 +10,7 @@ Requirements:
 
 - Debian
 - git
-= listening in port 80
+- listening in port 80
 
 
 Instructions
